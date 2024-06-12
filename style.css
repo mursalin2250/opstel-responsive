@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: inter;
+}
+html , body{
+    overflow-x: hidden;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url(images/bg\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+.video{
+    position: relative;
+}
+.play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+.box{
+    height: 300px;
+    width: 380px;
+    background-color: white;
+    border: none;
+}
+ol, ul{
+    padding: 0 !important;
+}
+.div-content ul li{
+    padding: 20px 50px;
+    line-height: 1;
+    border-right: 1px solid black;
+}
+footer{
+    background-color: #011825;
+    color: white;
+    
+}
+footer a{
+    color: white;
+}
+footer ul li{
+    padding-bottom: 10px;
+}
+.icon{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF33;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: large;
+    transition: background-color .5s, color .5s ease-out;
+    cursor: pointer;
+}
+.icon:hover{
+    background-color: white;
+    color: #011825;
+}
+.web-icons{
+    height: 60px;
+    width: 60px;
+    font-size: xx-large;
+    background-color: #00A1EB;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shadow-hover{
+    transition: box-shadow .5s;
+}
+.shadow-hover:hover{
+    box-shadow: 0px 0px 15px  rgba(139, 139, 139, 0.219);
+}
+.review-play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: x-large;
+}
